@@ -1,0 +1,618 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CECFE8A221A64248003775A3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CECFE8A121A64248003775A3 /* AppDelegate.m */; };
+		CECFE8A521A64248003775A3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CECFE8A421A64248003775A3 /* ViewController.m */; };
+		CECFE8A821A64248003775A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CECFE8A621A64248003775A3 /* Main.storyboard */; };
+		CECFE8AA21A64248003775A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CECFE8A921A64248003775A3 /* Assets.xcassets */; };
+		CECFE8AD21A64248003775A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CECFE8AB21A64248003775A3 /* LaunchScreen.storyboard */; };
+		CECFE8B021A64248003775A3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CECFE8AF21A64248003775A3 /* main.m */; };
+		CECFE8BA21A64248003775A3 /* LGCodeScannerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CECFE8B921A64248003775A3 /* LGCodeScannerTests.m */; };
+		CECFE8C521A64248003775A3 /* LGCodeScannerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CECFE8C421A64248003775A3 /* LGCodeScannerUITests.m */; };
+		CECFE8D721A6428E003775A3 /* LGScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = CECFE8D321A6428E003775A3 /* LGScanner.m */; };
+		CECFE8D821A6428E003775A3 /* LGScannerBorder.m in Sources */ = {isa = PBXBuildFile; fileRef = CECFE8D621A6428E003775A3 /* LGScannerBorder.m */; };
+		CECFE8DB21A64313003775A3 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = CECFE8DA21A64313003775A3 /* UIView+Extension.m */; };
+		CECFE8DE21A64626003775A3 /* ScannerController.m in Sources */ = {isa = PBXBuildFile; fileRef = CECFE8DD21A64626003775A3 /* ScannerController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CECFE8B621A64248003775A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CECFE89521A64248003775A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CECFE89C21A64248003775A3;
+			remoteInfo = LGCodeScanner;
+		};
+		CECFE8C121A64248003775A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CECFE89521A64248003775A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CECFE89C21A64248003775A3;
+			remoteInfo = LGCodeScanner;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CECFE89D21A64248003775A3 /* LGCodeScanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LGCodeScanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CECFE8A021A64248003775A3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CECFE8A121A64248003775A3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CECFE8A321A64248003775A3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CECFE8A421A64248003775A3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CECFE8A721A64248003775A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CECFE8A921A64248003775A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CECFE8AC21A64248003775A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CECFE8AE21A64248003775A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CECFE8AF21A64248003775A3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CECFE8B521A64248003775A3 /* LGCodeScannerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LGCodeScannerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CECFE8B921A64248003775A3 /* LGCodeScannerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGCodeScannerTests.m; sourceTree = "<group>"; };
+		CECFE8BB21A64248003775A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CECFE8C021A64248003775A3 /* LGCodeScannerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LGCodeScannerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CECFE8C421A64248003775A3 /* LGCodeScannerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGCodeScannerUITests.m; sourceTree = "<group>"; };
+		CECFE8C621A64248003775A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CECFE8D321A6428E003775A3 /* LGScanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGScanner.m; sourceTree = "<group>"; };
+		CECFE8D421A6428E003775A3 /* LGScannerBorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGScannerBorder.h; sourceTree = "<group>"; };
+		CECFE8D521A6428E003775A3 /* LGScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGScanner.h; sourceTree = "<group>"; };
+		CECFE8D621A6428E003775A3 /* LGScannerBorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGScannerBorder.m; sourceTree = "<group>"; };
+		CECFE8D921A64313003775A3 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		CECFE8DA21A64313003775A3 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		CECFE8DC21A64626003775A3 /* ScannerController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScannerController.h; sourceTree = "<group>"; };
+		CECFE8DD21A64626003775A3 /* ScannerController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScannerController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CECFE89A21A64248003775A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CECFE8B221A64248003775A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CECFE8BD21A64248003775A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CECFE89421A64248003775A3 = {
+			isa = PBXGroup;
+			children = (
+				CECFE89F21A64248003775A3 /* LGCodeScanner */,
+				CECFE8B821A64248003775A3 /* LGCodeScannerTests */,
+				CECFE8C321A64248003775A3 /* LGCodeScannerUITests */,
+				CECFE89E21A64248003775A3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CECFE89E21A64248003775A3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CECFE89D21A64248003775A3 /* LGCodeScanner.app */,
+				CECFE8B521A64248003775A3 /* LGCodeScannerTests.xctest */,
+				CECFE8C021A64248003775A3 /* LGCodeScannerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CECFE89F21A64248003775A3 /* LGCodeScanner */ = {
+			isa = PBXGroup;
+			children = (
+				CECFE8D221A6428E003775A3 /* LGCodeScanner */,
+				CECFE8A021A64248003775A3 /* AppDelegate.h */,
+				CECFE8A121A64248003775A3 /* AppDelegate.m */,
+				CECFE8A321A64248003775A3 /* ViewController.h */,
+				CECFE8A421A64248003775A3 /* ViewController.m */,
+				CECFE8DC21A64626003775A3 /* ScannerController.h */,
+				CECFE8DD21A64626003775A3 /* ScannerController.m */,
+				CECFE8A621A64248003775A3 /* Main.storyboard */,
+				CECFE8A921A64248003775A3 /* Assets.xcassets */,
+				CECFE8AB21A64248003775A3 /* LaunchScreen.storyboard */,
+				CECFE8AE21A64248003775A3 /* Info.plist */,
+				CECFE8AF21A64248003775A3 /* main.m */,
+			);
+			path = LGCodeScanner;
+			sourceTree = "<group>";
+		};
+		CECFE8B821A64248003775A3 /* LGCodeScannerTests */ = {
+			isa = PBXGroup;
+			children = (
+				CECFE8B921A64248003775A3 /* LGCodeScannerTests.m */,
+				CECFE8BB21A64248003775A3 /* Info.plist */,
+			);
+			path = LGCodeScannerTests;
+			sourceTree = "<group>";
+		};
+		CECFE8C321A64248003775A3 /* LGCodeScannerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CECFE8C421A64248003775A3 /* LGCodeScannerUITests.m */,
+				CECFE8C621A64248003775A3 /* Info.plist */,
+			);
+			path = LGCodeScannerUITests;
+			sourceTree = "<group>";
+		};
+		CECFE8D221A6428E003775A3 /* LGCodeScanner */ = {
+			isa = PBXGroup;
+			children = (
+				CECFE8D921A64313003775A3 /* UIView+Extension.h */,
+				CECFE8DA21A64313003775A3 /* UIView+Extension.m */,
+				CECFE8D521A6428E003775A3 /* LGScanner.h */,
+				CECFE8D321A6428E003775A3 /* LGScanner.m */,
+				CECFE8D421A6428E003775A3 /* LGScannerBorder.h */,
+				CECFE8D621A6428E003775A3 /* LGScannerBorder.m */,
+			);
+			path = LGCodeScanner;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CECFE89C21A64248003775A3 /* LGCodeScanner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CECFE8C921A64248003775A3 /* Build configuration list for PBXNativeTarget "LGCodeScanner" */;
+			buildPhases = (
+				CECFE89921A64248003775A3 /* Sources */,
+				CECFE89A21A64248003775A3 /* Frameworks */,
+				CECFE89B21A64248003775A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LGCodeScanner;
+			productName = LGCodeScanner;
+			productReference = CECFE89D21A64248003775A3 /* LGCodeScanner.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CECFE8B421A64248003775A3 /* LGCodeScannerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CECFE8CC21A64248003775A3 /* Build configuration list for PBXNativeTarget "LGCodeScannerTests" */;
+			buildPhases = (
+				CECFE8B121A64248003775A3 /* Sources */,
+				CECFE8B221A64248003775A3 /* Frameworks */,
+				CECFE8B321A64248003775A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CECFE8B721A64248003775A3 /* PBXTargetDependency */,
+			);
+			name = LGCodeScannerTests;
+			productName = LGCodeScannerTests;
+			productReference = CECFE8B521A64248003775A3 /* LGCodeScannerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CECFE8BF21A64248003775A3 /* LGCodeScannerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CECFE8CF21A64248003775A3 /* Build configuration list for PBXNativeTarget "LGCodeScannerUITests" */;
+			buildPhases = (
+				CECFE8BC21A64248003775A3 /* Sources */,
+				CECFE8BD21A64248003775A3 /* Frameworks */,
+				CECFE8BE21A64248003775A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CECFE8C221A64248003775A3 /* PBXTargetDependency */,
+			);
+			name = LGCodeScannerUITests;
+			productName = LGCodeScannerUITests;
+			productReference = CECFE8C021A64248003775A3 /* LGCodeScannerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CECFE89521A64248003775A3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Mr.Lee;
+				TargetAttributes = {
+					CECFE89C21A64248003775A3 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					CECFE8B421A64248003775A3 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = CECFE89C21A64248003775A3;
+					};
+					CECFE8BF21A64248003775A3 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = CECFE89C21A64248003775A3;
+					};
+				};
+			};
+			buildConfigurationList = CECFE89821A64248003775A3 /* Build configuration list for PBXProject "LGCodeScanner" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CECFE89421A64248003775A3;
+			productRefGroup = CECFE89E21A64248003775A3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CECFE89C21A64248003775A3 /* LGCodeScanner */,
+				CECFE8B421A64248003775A3 /* LGCodeScannerTests */,
+				CECFE8BF21A64248003775A3 /* LGCodeScannerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CECFE89B21A64248003775A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CECFE8AD21A64248003775A3 /* LaunchScreen.storyboard in Resources */,
+				CECFE8AA21A64248003775A3 /* Assets.xcassets in Resources */,
+				CECFE8A821A64248003775A3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CECFE8B321A64248003775A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CECFE8BE21A64248003775A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CECFE89921A64248003775A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CECFE8DB21A64313003775A3 /* UIView+Extension.m in Sources */,
+				CECFE8A521A64248003775A3 /* ViewController.m in Sources */,
+				CECFE8B021A64248003775A3 /* main.m in Sources */,
+				CECFE8A221A64248003775A3 /* AppDelegate.m in Sources */,
+				CECFE8D821A6428E003775A3 /* LGScannerBorder.m in Sources */,
+				CECFE8D721A6428E003775A3 /* LGScanner.m in Sources */,
+				CECFE8DE21A64626003775A3 /* ScannerController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CECFE8B121A64248003775A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CECFE8BA21A64248003775A3 /* LGCodeScannerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CECFE8BC21A64248003775A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CECFE8C521A64248003775A3 /* LGCodeScannerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CECFE8B721A64248003775A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CECFE89C21A64248003775A3 /* LGCodeScanner */;
+			targetProxy = CECFE8B621A64248003775A3 /* PBXContainerItemProxy */;
+		};
+		CECFE8C221A64248003775A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CECFE89C21A64248003775A3 /* LGCodeScanner */;
+			targetProxy = CECFE8C121A64248003775A3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CECFE8A621A64248003775A3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CECFE8A721A64248003775A3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CECFE8AB21A64248003775A3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CECFE8AC21A64248003775A3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CECFE8C721A64248003775A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CECFE8C821A64248003775A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CECFE8CA21A64248003775A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YV9A4TRPTT;
+				INFOPLIST_FILE = LGCodeScanner/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cloudshixi.-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		CECFE8CB21A64248003775A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YV9A4TRPTT;
+				INFOPLIST_FILE = LGCodeScanner/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cloudshixi.-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		CECFE8CD21A64248003775A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YV9A4TRPTT;
+				INFOPLIST_FILE = LGCodeScannerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lee.LGCodeScannerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LGCodeScanner.app/LGCodeScanner";
+			};
+			name = Debug;
+		};
+		CECFE8CE21A64248003775A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YV9A4TRPTT;
+				INFOPLIST_FILE = LGCodeScannerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lee.LGCodeScannerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LGCodeScanner.app/LGCodeScanner";
+			};
+			name = Release;
+		};
+		CECFE8D021A64248003775A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YV9A4TRPTT;
+				INFOPLIST_FILE = LGCodeScannerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lee.LGCodeScannerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LGCodeScanner;
+			};
+			name = Debug;
+		};
+		CECFE8D121A64248003775A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YV9A4TRPTT;
+				INFOPLIST_FILE = LGCodeScannerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lee.LGCodeScannerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LGCodeScanner;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CECFE89821A64248003775A3 /* Build configuration list for PBXProject "LGCodeScanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CECFE8C721A64248003775A3 /* Debug */,
+				CECFE8C821A64248003775A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CECFE8C921A64248003775A3 /* Build configuration list for PBXNativeTarget "LGCodeScanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CECFE8CA21A64248003775A3 /* Debug */,
+				CECFE8CB21A64248003775A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CECFE8CC21A64248003775A3 /* Build configuration list for PBXNativeTarget "LGCodeScannerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CECFE8CD21A64248003775A3 /* Debug */,
+				CECFE8CE21A64248003775A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CECFE8CF21A64248003775A3 /* Build configuration list for PBXNativeTarget "LGCodeScannerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CECFE8D021A64248003775A3 /* Debug */,
+				CECFE8D121A64248003775A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CECFE89521A64248003775A3 /* Project object */;
+}
